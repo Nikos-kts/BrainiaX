@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#223e97ab"
+
+    tools:context="com.example.panagioteskostakes.brainiax.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:adjustViewBounds="true"
+        android:alpha=".80"
+        android:contentDescription="@string/brainiax_background_logo"
+        android:cropToPadding="true"
+        android:src="@drawable/main_photo" />
+
+    <Button
+        android:id="@+id/wifion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginStart="16dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="@string/subscribe" />
+
+    <Button
+        android:id="@+id/wifioff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textbut"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/holo_blue_dark"
+        android:text="@string/unsubscribe" />
+
+
+    <Button
+        android:id="@+id/textbut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/wifion"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:background="@android:color/white"
+        android:text="@string/textbutton"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textbut"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="63dp"
+        app:srcCompat="@drawable/newws" />
+
+    <Button
+        android:id="@+id/turnon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/wifion"
+        android:layout_marginStart="28dp"
+        android:background="@android:color/darker_gray"
+        android:text="@string/turn_on_flash" />
+
+    <Button
+        android:id="@+id/turnoff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/pub_button"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="22dp"
+        android:background="@android:color/darker_gray"
+        android:text="@string/turn_off_flash" />
+
+    <Button
+        android:id="@+id/pub_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="@string/publish" />
+
+
+</RelativeLayout>

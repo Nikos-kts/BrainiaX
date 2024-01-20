@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BrainiaX</string>
+    <string name="action_settings">Settings</string>
+    <string name="quit">Exit</string>
+    <string name="brainiax_background_logo">Brainiax background logo</string>
+    <string name="unsubscribe">Unsubscribe</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="textbutton">Activate Command</string>
+    <string name="set_ip">Set IP and Port</string>
+    <string name="set_frequency">Set Frequency</string>
+    <string name="turn_on_flash">Turn ON Flash</string>
+    <string name="turn_off_flash">Turn Off Flash</string>
+    <string name="publish">Publish</string>
+</resources>
